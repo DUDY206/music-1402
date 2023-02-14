@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function pageLoaded() {
+                // Speed up the audio 3x so the test doesn't take 10 seconds.
+                var audio = document.getElementById("audio");
+                audio.playbackRate = 3;
+                audio.play();
+            }
+        </script>
+    </head>
+    <body onload="pageLoaded()">
+      <iframe width="100%" height="1000px" src="https://www.youtube.com/embed/-7sISWuTdj0?start=66&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body>
+</html>
